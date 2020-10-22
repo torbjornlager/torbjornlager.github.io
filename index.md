@@ -31,7 +31,7 @@ $ cd web-client
 $ swipl run.pl
 ```
 
-Now direct your browser to http://localhost:3060/apps/swish/index.html .
+Now direct your browser to [http://localhost:3060/apps/swish/index.html](http://localhost:3060/apps/swish/index.html) .
 
 A book manuscript describing the approach is available at
 
