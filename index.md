@@ -33,9 +33,7 @@ $ swipl run.pl
 
 Now direct your browser to [http://localhost:3060/apps/swish/index.html](http://localhost:3060/apps/swish/index.html) .
 
-A book manuscript describing the approach is available at
-
-https://github.com/Web-Prolog/swi-web-prolog/raw/master/book/web-prolog.pdf
+A book manuscript describing the approach is available [here](https://github.com/Web-Prolog/swi-web-prolog/raw/master/book/web-prolog.pdf).
 
 It is very much a draft lacking some of the planned chapters, but should be readable enough for those who want to know more about the ideas behind Web Prolog.
 
