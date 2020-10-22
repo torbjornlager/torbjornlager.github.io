@@ -17,7 +17,7 @@ One of my long term goals is to replace the SWISH back-end with a Web Prolog nod
 
 ### Get the latest SWI-Prolog
 
-Install the latest [SWI-Prolog](https://www.swi-prolog.org/download/devel). 
+Install the latest [SWI-Prolog](https://www.swi-prolog.org/download/devel) for your platform. 
 
 ### Clone or download the repo
 
