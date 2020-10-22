@@ -1,14 +1,44 @@
-### Welcome to GitHub Pages.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.
+# Web Prolog
 
-### Designer Templates
-We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.
+Elevator pitch:
 
-### Creating pages manually
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
+> Imagine a dialect of **Prolog** with processes and mailboxes and send and receive – all the means necessary for powerful concurrent and distributed programming. Alternatively, think of it as a dialect of **Erlang** with logic variables, backtracking search and a built-in database of facts and rules – the means for logic programming, knowledge representation and reasoning. Also, think of it as a **web logic programming language**. This is what **Web Prolog** is all about. 
 
-### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
+This is a proof-of-concept demonstration/tutorial only. The system is _not_ yet ready for online deployment. But you can install it locally, work through the tutorial, and play with lots of code examples.
 
-### Support or Contact
-Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Design and implementation by Torbjörn Lager, with a _lot_ of help from Jan Wielemaker. 
+
+You may also want to have a look at SWISH (https://swish.swi-prolog.org/) which is a stable online IDE for Prolog, running 24/7 and having lots of users, especially among students taking CS courses involving logic programming and Prolog. 
+
+One of my long term goals is to replace the SWISH back-end with a Web Prolog node.
+
+## Installation
+
+
+### Get the latest SWI-Prolog
+
+Install the latest  [SWI-Prolog](http://www.swi-prolog.org) _development
+version_. 
+
+### Clone or download the repo
+
+## Running Web Prolog
+
+From the web-prolog directory, do:
+
+```
+$ cd web-client
+$ swipl run.pl
+```
+
+Now direct your browser to http://localhost:3060/apps/swish/index.html .
+
+A book manuscript describing the approach is available at
+
+https://github.com/Web-Prolog/swi-web-prolog/raw/master/book/web-prolog.pdf
+
+It is very much a draft lacking some of the planned chapters, but should be readable enough for those who want to know more about the ideas behind Web Prolog.
+
+Success!
+
+
