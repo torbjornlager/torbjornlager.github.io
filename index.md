@@ -22,12 +22,7 @@ Design and implementation by Torbjörn Lager, with a _lot_ of help from Jan Wiel
 
 2. Clone or download the repo
 
-3. From the web-prolog directory, do:
-
-```
-$ cd web-client
-$ swipl run.pl
-```
+3. From the web-prolog directory, do ´cd web-client´ and then ´swipl run.pl´.
 
 4. Now direct your browser to [http://localhost:3060/apps/swish/index.html](http://localhost:3060/apps/swish/index.html) .
 
@@ -41,5 +36,5 @@ It is very much a draft lacking some of the planned chapters, but should be read
 ## Papers
 
 
-[1](https://gup.ub.gu.se/file/207827)
+[Intro to Web Prolog for Erlangers](https://gup.ub.gu.se/file/207827)
 
