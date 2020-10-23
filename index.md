@@ -9,6 +9,9 @@ You may also want to have a look at SWISH (https://swish.swi-prolog.org/) which 
 One of my long term goals is to replace the SWISH back-end with a Web Prolog node.
 
 
+[The ISO Prolog standard]()
+
+
 ## Proof-of-concept implementation of Web Prolog
 
 This is a proof-of-concept demonstration/tutorial only. The system is _not_ yet ready for online deployment. But you can install it locally, work through the tutorial, and play with lots of code examples.
@@ -31,6 +34,8 @@ Design and implementation by Torbjörn Lager, with a _lot_ of help from Jan Wiel
 A book manuscript describing the approach is available [here](https://github.com/Web-Prolog/swi-web-prolog/raw/master/book/web-prolog.pdf).
 
 It is very much a draft lacking some of the planned chapters, but should be readable enough for those who want to know more about the ideas behind Web Prolog.
+
+[Draft Web Prolog manual](documents/manual-draft.pdf)
 
 
 ## Papers
