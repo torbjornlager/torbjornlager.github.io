@@ -32,7 +32,7 @@ $ swipl run.pl
 
 Now direct your browser to [http://localhost:3060/apps/swish/index.html](http://localhost:3060/apps/swish/index.html) .
 
-## Draft manuscripts
+## Draft manuscripts and other documents
 
 A book manuscript describing the approach is available [here](https://github.com/Web-Prolog/swi-web-prolog/raw/master/book/web-prolog.pdf).
 
