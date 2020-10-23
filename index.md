@@ -2,14 +2,14 @@
 
 ## Introductory material to Prolog
 
-To be able to follow the talks, some acquaintance with Prolog is likely required. If you're new to Prolog, you may want to have a look at an excellent new [online book](https://www.metalevel.at/prolog) and a series of [video lectures](https://www.metalevel.at/prolog/videos) by Markus Triska. [SWISH](https://swish.swi-prolog.org) is an online IDE for Prolog that can be used for solving excercises. I'll be available for online consultation if needed.
+To be able to follow the talks, some acquaintance with Prolog is likely required. If you're new to Prolog, you may want to have a look at an excellent new [online book](https://www.metalevel.at/prolog) and a series of [video lectures](https://www.metalevel.at/prolog/videos) by [Markus Triska](https://www.metalevel.at). [SWISH](https://swish.swi-prolog.org) is an online IDE for Prolog that can be used for solving excercises. I'll be available for online consultation if needed.
 
 You may also want to have a look at SWISH (https://swish.swi-prolog.org/) which is a stable online IDE for Prolog, running 24/7 and having lots of users, especially among students taking CS courses involving logic programming and Prolog. 
 
 One of my long term goals is to replace the SWISH back-end with a Web Prolog node.
 
 
-## Proof-of-concept implementations of Web Prolog
+## Proof-of-concept implementation of Web Prolog
 
 This is a proof-of-concept demonstration/tutorial only. The system is _not_ yet ready for online deployment. But you can install it locally, work through the tutorial, and play with lots of code examples.
 
