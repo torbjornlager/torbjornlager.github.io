@@ -9,7 +9,7 @@ You may also want to have a look at SWISH (https://swish.swi-prolog.org/) which 
 One of my long term goals is to replace the SWISH back-end with a Web Prolog node.
 
 
-[The ISO Prolog standard]()
+[ISO Prolog: A Summary of the Draft Proposed Standard](http://fsl.cs.illinois.edu/images/9/9c/PrologStandard.pdf)
 
 
 ## Proof-of-concept implementation of Web Prolog
@@ -23,9 +23,9 @@ Design and implementation by Torbjörn Lager, with a _lot_ of help from Jan Wiel
 
 1. Install the latest [SWI-Prolog](https://www.swi-prolog.org/download/devel) for your platform. 
 
-2. Clone or download the repo
+2. Clone or download the repo from [https://github.com/Web-Prolog/swi-web-prolog](https://github.com/Web-Prolog/swi-web-prolog)
 
-3. From the web-prolog directory, do `cd web-client` and then `swipl run.pl`.
+3. From the `swi-web-prolog` directory, do `cd web-client` and then `swipl run.pl`. (There may be a few warnings, but they don't matter.)
 
 4. Now direct your browser to [http://localhost:3060/apps/swish/index.html](http://localhost:3060/apps/swish/index.html) .
 
@@ -43,3 +43,5 @@ It is very much a draft lacking some of the planned chapters, but should be read
 
 [Intro to Web Prolog for Erlangers](https://gup.ub.gu.se/file/207827)
 
+
+[Lots of useful Prolog references](https://swi-prolog.discourse.group/t/useful-prolog-references/1089)
