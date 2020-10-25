@@ -30,6 +30,7 @@ It is very much a draft lacking some of the planned chapters, but should be read
 
 [ISO Prolog: A Summary of the Draft Proposed Standard](http://fsl.cs.illinois.edu/images/9/9c/PrologStandard.pdf)
 
+[ISO Prolog Threads (draft)](https://logtalk.org/plstd/threads.pdf)
 
 ## Papers
 
