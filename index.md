@@ -1,7 +1,7 @@
 
 ## Introductory material to traditional Prolog
 
-To be able to follow the talks, some acquaintance with Prolog would likely help. If you're new to the language, you may want to have a look at an excellent new [online book](https://www.metalevel.at/prolog) and a series of [video lectures](https://www.metalevel.at/prolog/videos) by [Markus Triska](https://www.metalevel.at). [SWISH](https://swish.swi-prolog.org) is an online IDE for Prolog that can be used for solving excercises. I'll be available for online consultation if needed.
+To be able to follow the talks, some acquaintance with Prolog would likely help. If you're new to the language, you may want to have a look at an excellent new [online book](https://www.metalevel.at/prolog) and a series of [video lectures](https://www.metalevel.at/prolog/videos) by [Markus Triska](https://www.metalevel.at). 
 
 You may also want to play with [SWISH](https://swish.swi-prolog.org), which is a stable online IDE for Prolog, running 24/7 and having lots of users, especially among students taking CS courses involving logic programming and Prolog. 
 
