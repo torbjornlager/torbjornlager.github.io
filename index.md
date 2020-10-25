@@ -1,4 +1,3 @@
-# Web Prolog
 
 ## Introductory material to traditional Prolog
 
