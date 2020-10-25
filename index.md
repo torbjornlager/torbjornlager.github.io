@@ -1,15 +1,11 @@
 # Web Prolog
 
-## Introductory material to Prolog
+## Introductory material to traditional Prolog
 
-To be able to follow the talks, some acquaintance with Prolog is likely required. If you're new to Prolog, you may want to have a look at an excellent new [online book](https://www.metalevel.at/prolog) and a series of [video lectures](https://www.metalevel.at/prolog/videos) by [Markus Triska](https://www.metalevel.at). [SWISH](https://swish.swi-prolog.org) is an online IDE for Prolog that can be used for solving excercises. I'll be available for online consultation if needed.
+To be able to follow the talks, some acquaintance with Prolog would likely help. If you're new to the language, you may want to have a look at an excellent new [online book](https://www.metalevel.at/prolog) and a series of [video lectures](https://www.metalevel.at/prolog/videos) by [Markus Triska](https://www.metalevel.at). [SWISH](https://swish.swi-prolog.org) is an online IDE for Prolog that can be used for solving excercises. I'll be available for online consultation if needed.
 
-You may also want to have a look at SWISH (https://swish.swi-prolog.org/) which is a stable online IDE for Prolog, running 24/7 and having lots of users, especially among students taking CS courses involving logic programming and Prolog. 
+You may also want to play with [SWISH](https://swish.swi-prolog.org), which is a stable online IDE for Prolog, running 24/7 and having lots of users, especially among students taking CS courses involving logic programming and Prolog. 
 
-One of my long term goals is to replace the SWISH back-end with a Web Prolog node.
-
-
-[ISO Prolog: A Summary of the Draft Proposed Standard](http://fsl.cs.illinois.edu/images/9/9c/PrologStandard.pdf)
 
 
 ## Proof-of-concept implementation of Web Prolog
@@ -36,6 +32,9 @@ A book manuscript describing the approach is available [here](https://github.com
 It is very much a draft lacking some of the planned chapters, but should be readable enough for those who want to know more about the ideas behind Web Prolog.
 
 [Draft Web Prolog manual](documents/manual-draft.pdf)
+
+[ISO Prolog: A Summary of the Draft Proposed Standard](http://fsl.cs.illinois.edu/images/9/9c/PrologStandard.pdf)
+
 
 
 ## Papers
