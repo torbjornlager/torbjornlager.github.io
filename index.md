@@ -9,12 +9,7 @@ You may also want to play with [SWISH](https://swish.swi-prolog.org), which is a
 
 ## Proof-of-concept implementation of Web Prolog
 
-This is a proof-of-concept demonstration/tutorial only. The system is _not_ yet ready for online deployment. But you can install it locally, work through the tutorial, and play with lots of code examples.
-
-Design and implementation by Torbjörn Lager, with a _lot_ of help from Jan Wielemaker. 
-
-
-### Installation
+This is a proof-of-concept demonstration/tutorial only. The system is _not_ yet ready for online deployment. But you can install it locally, work through the tutorial, and play with lots of code examples. Here's how to install it:
 
 1. Install the latest [SWI-Prolog](https://www.swi-prolog.org/download/devel) for your platform. 
 
@@ -23,6 +18,7 @@ Design and implementation by Torbjörn Lager, with a _lot_ of help from Jan Wiel
 3. From the `swi-web-prolog` directory, do `cd web-client` and then `swipl run.pl`. (There may be a few warnings, but they don't matter.)
 
 4. Now direct your browser to [http://localhost:3060/apps/swish/index.html](http://localhost:3060/apps/swish/index.html) .
+
 
 ## Draft manuscripts and other documents
 
@@ -33,7 +29,6 @@ It is very much a draft lacking some of the planned chapters, but should be read
 [Draft Web Prolog manual](documents/manual-draft.pdf)
 
 [ISO Prolog: A Summary of the Draft Proposed Standard](http://fsl.cs.illinois.edu/images/9/9c/PrologStandard.pdf)
-
 
 
 ## Papers
