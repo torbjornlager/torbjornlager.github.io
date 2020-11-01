@@ -4,7 +4,7 @@ If you want to **read something** in connection with the talks, I would recommen
 
 If you want to **delve deeper**, reading the draft book [Web Prolog and the programmable Prolog Web](https://github.com/Web-Prolog/swi-web-prolog/raw/master/book/web-prolog.pdf) might also be useful. (I have a much later draft, which unfortuantely has become very messy and hard to read :-( . But if you insist, I might distribute that too.)
 
-If you want to **play** with the language and perhaps **take the tutorial** (which I really recommend) you need to install the proof-of-concept implementation. See below.
+If you want to **play with the language** and perhaps **take the tutorial** (which I really recommend) you need to install the proof-of-concept implementation. See below.
 
 ## Proof-of-concept implementation of Web Prolog
 
