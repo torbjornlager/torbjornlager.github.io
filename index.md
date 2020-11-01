@@ -42,10 +42,10 @@ It is very much a draft lacking some of the planned chapters, but should be read
 ## Papers
 
 
-[Intro to Web Prolog for Erlangers](https://gup.ub.gu.se/file/207827)
+- [Intro to Web Prolog for Erlangers](https://gup.ub.gu.se/file/207827)
 
 
-[Lots of useful Prolog references](https://swi-prolog.discourse.group/t/useful-prolog-references/1089)
+- [Lots of useful Prolog references](https://swi-prolog.discourse.group/t/useful-prolog-references/1089)
 
 
 ## Videos
