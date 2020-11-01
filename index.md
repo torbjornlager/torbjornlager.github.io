@@ -30,13 +30,13 @@ A book manuscript describing the approach is available [here](https://github.com
 
 It is very much a draft lacking some of the planned chapters, but should be readable enough for those who want to know more about the ideas behind Web Prolog.
 
-[Draft chapter on SCXML and Web Prolog](https://github.com/Web-Prolog/swi-web-prolog/blob/master/book/web-prolog-and-scxml.pdf)
+- [Draft chapter on SCXML and Web Prolog](https://github.com/Web-Prolog/swi-web-prolog/blob/master/book/web-prolog-and-scxml.pdf)
 
-[Draft Web Prolog manual](documents/manual-draft.pdf)
+- [Draft Web Prolog manual](documents/manual-draft.pdf)
 
-[ISO Prolog: A Summary of the Draft Proposed Standard](http://fsl.cs.illinois.edu/images/9/9c/PrologStandard.pdf)
+- [ISO Prolog: A Summary of the Draft Proposed Standard](http://fsl.cs.illinois.edu/images/9/9c/PrologStandard.pdf)
 
-[ISO Prolog Threads (draft)](https://logtalk.org/plstd/threads.pdf)
+- [ISO Prolog Threads (draft)](https://logtalk.org/plstd/threads.pdf)
 
 
 ## Papers
@@ -60,10 +60,10 @@ It is very much a draft lacking some of the planned chapters, but should be read
 
 ## Reactions
 
-https://news.ycombinator.com/item?id=17288493
+- https://news.ycombinator.com/item?id=17288493
 
-https://bluishcoder.co.nz/2018/09/24/concurrent-and-distributed-programming-in-web-prolog.html
+- https://bluishcoder.co.nz/2018/09/24/concurrent-and-distributed-programming-in-web-prolog.html
 
-https://www.quora.com/How-does-Web-Prolog-compare-to-Erlang-I-heard-that-Erlang-came-from-a-parallel-Prolog-that-dropped-backtracking-And-Web-Prolog-is-Prolog-extended-to-be-like-Erlang
+- https://www.quora.com/How-does-Web-Prolog-compare-to-Erlang-I-heard-that-Erlang-came-from-a-parallel-Prolog-that-dropped-backtracking-And-Web-Prolog-is-Prolog-extended-to-be-like-Erlang
 
 
