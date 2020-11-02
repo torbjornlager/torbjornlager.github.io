@@ -38,6 +38,8 @@ If you want to install SWI-Prolog locally, and check out the user forum, these a
 - [ISO Prolog: A Summary of the Draft Proposed Standard](http://fsl.cs.illinois.edu/images/9/9c/PrologStandard.pdf)
 - [ISO Prolog Threads](https://logtalk.org/plstd/threads.pdf)
 - [Lots of useful Prolog references](https://swi-prolog.discourse.group/t/useful-prolog-references/1089)
+- [David Harel's seminal paper on Statechart](http://www.wisdom.weizmann.ac.il/~harel/SCANNED.PAPERS/Statecharts.pdf)
+- [The SCXML standard](https://www.w3.org/TR/scxml)
 
 
 ## Links to videos
