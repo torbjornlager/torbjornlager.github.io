@@ -6,6 +6,7 @@ If you want to **delve deeper**, reading my manuscript [Web Prolog and the progr
 
 If you want to **play with the language** and perhaps **take the tutorial** (which I really recommend) you need to install the proof-of-concept implementation. See below.
 
+
 ## Proof-of-concept implementation of Web Prolog
 
 Note that this is a proof-of-concept demonstration/tutorial only. The system is _not_ yet ready for online deployment. But you can install it locally, work through the tutorial, and play with lots of code examples. Here's how to install it:
@@ -14,6 +15,7 @@ Note that this is a proof-of-concept demonstration/tutorial only. The system is 
 2. Clone or download the repo from [https://github.com/Web-Prolog/swi-web-prolog](https://github.com/Web-Prolog/swi-web-prolog)
 3. From the `swi-web-prolog` directory, do `cd web-client` and then `swipl run.pl`. (There may be a few warnings, but they don't matter.)
 4. Now direct your browser to [http://localhost:3060/apps/swish/index.html](http://localhost:3060/apps/swish/index.html) .
+
 
 
 ## Introductory material to traditional Prolog
@@ -40,6 +42,7 @@ If you want to install SWI-Prolog locally, and check out the user forum, these a
 - [Lots of useful Prolog references](https://swi-prolog.discourse.group/t/useful-prolog-references/1089)
 - [David Harel's seminal paper on Statechart](http://www.wisdom.weizmann.ac.il/~harel/SCANNED.PAPERS/Statecharts.pdf)
 - [The SCXML standard](https://www.w3.org/TR/scxml)
+
 
 
 ## Links to videos
