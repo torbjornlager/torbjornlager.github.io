@@ -43,7 +43,7 @@ If you want to install SWI-Prolog locally, and check out the user forum, these a
 - [David Harel's seminal paper on Statechart](http://www.wisdom.weizmann.ac.il/~harel/SCANNED.PAPERS/Statecharts.pdf)
 - [The SCXML standard](https://www.w3.org/TR/scxml)
 - [Make Prolog Great Again!](https://github.com/Web-Prolog/swi-web-prolog/blob/master/book/web-prolog-marketing.pdf)
-
+- [Radomski, et al. - A Prolog Datamodel for State Chart XML](https://www.aclweb.org/anthology/W13-4019.pdf)
 
 
 ## Links to videos
