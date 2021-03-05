@@ -7,6 +7,21 @@ If you want to **delve deeper**, reading my manuscript [Web Prolog and the progr
 If you want to **play with the language** and perhaps **take the tutorial** (which I really recommend) you need to install the proof-of-concept implementation. See below.
 
 
+## Ecosystem: The "Holy Prolog Trinity"
+
+![The Holy Prolog Trinity](documents/diagram.png "Optional Title")
+
+
+
+## Marketing: Three "elevator pitches"
+
+* Imagine a dialect of Prolog with actors and mailboxes and send and receive -- all the means necessary for powerful concurrent and distributed programming.  Alternatively, think of it as a dialect of Erlang with logic variables, backtracking search and a built-in database of facts and rules -- the means for logic programming, knowledge representation and reasoning. Also, think of it as a web logic programming language. This is what **Web Prolog** is all about.
+
+* Imagine the Web wrapped in Prolog, running on top of a distributed architecture comprised of a network of nodes supporting HTTP and WebSocket APIs, as well as web formats such as JSON. Think of it as a high-level Web, capable of serving answers to queries -- answers that follow from what the Web "knows". Moreover, imagine it being programmable, allowing Web Prolog source code to flow in either direction, from the client to the node or from the node to the client. This is what **the Prolog Web** is all about.
+
+* Imagine the Prolog Web populated by **Prolog Agents**. Imagine them being written in a thoroughly integrated combination of Web Prolog and StateChart XML -- two languages which come with a fair amount of formal semantics. Think of this as a way to ensure that four important aspects of web-based intelligent conversational agents -- natural language understanding, knowledge representation, reasoning and real-time interaction -- are accounted for. This is what programming languages for building such agents should be all about.
+
+
 ## Proof-of-concept implementation of Web Prolog
 
 Note that this is a proof-of-concept demonstration/tutorial only. The system is _not_ yet ready for online deployment. But you can install it locally, work through the tutorial, and play with lots of code examples. Here's how to install it:
