@@ -49,9 +49,9 @@ Note that this is a proof-of-concept demonstration/tutorial only. The system is 
 
    At this point you may want to take the node's stateless HTTP API for a trial run by selecting (or just entering) the following URI in a web browser:
 
-   ```text
-   http://localhost:3010/call?goal=member(X,[a,b])&format=prolog
-   ```
+
+   [http://localhost:3010/call?goal=member(X,[a,b])&format=prolog](http://localhost:3010/call?goal=member(X,[a,b])&format=prolog)
+
    In the browser's window, you should then see the following:
 
    ```
