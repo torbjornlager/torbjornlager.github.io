@@ -38,7 +38,7 @@ Note that this is a proof-of-concept demonstration/tutorial only. The system is 
 
 5. To run a node with its stateless HTTP API, you need to do:
 
-   ```
+   ```text
    ?- node(3010).
    % Started server at http://localhost:3010/
    true.
@@ -58,17 +58,12 @@ Note that this is a proof-of-concept demonstration/tutorial only. The system is 
    success([member(a,[a,b]),member(b,[a,b])],false)
    ```
 
-   and with 
+   Then try this:
 
-   ```text
-   http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=0&limit=1&format=prolog
-   ```
 
-   Try this:
+   [http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=0&limit=1&format=prolog](http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=0&limit=1&format=prolog)
 
-   ```text
-   http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=0&limit=1&format=prolog
-   ```
+
 
    and you should see
 
@@ -78,9 +73,9 @@ Note that this is a proof-of-concept demonstration/tutorial only. The system is 
 
    Then this, where offset is set to `1`:
 
-   ```text
-   http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=1&limit=1&format=prolog
-   ```
+
+   [http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=1&limit=1&format=prolog](http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=1&limit=1&format=prolog)
+
 
     and you should see
 
@@ -117,7 +112,7 @@ Note that this is a proof-of-concept demonstration/tutorial only. The system is 
    ?- 
    ```
 
-   If you wan to test the naive implementation of the HTTP API (the one you may be able to implement i Scryer Prolog at this point in time) you need to replace `compute_answer/5` with two lines (see ≈ line 590). If you do, note that computing the solution `X=bar` will take just as long as computing the solution `X=foo`.
+   If you want to test the naive implementation of the HTTP API (the one you may be able to implement in Scryer Prolog at this point in time) you need to replace `compute_answer/5` with two lines (see ≈ line 590). If you do, note that computing the solution `X=bar` will take just as long as computing the solution `X=foo` since spurious recomputations are no longer eliminated.
 
 6. Your Prolog top-level can be used as a shell. Try this for example:
 
