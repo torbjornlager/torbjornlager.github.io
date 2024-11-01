@@ -9,9 +9,9 @@ If you want to **play with the language** and perhaps **take the tutorial** (whi
 
 ### Links to written material
 
-- [Parts of two chapters from my draft manuscript](parts-of-chapter-2-and-3.pdf)
+- [Parts of two chapters from my draft manuscript](documents/parts-of-chapter-2-and-3.pdf)
 - [An appendix containing the draft Web Prolog manual](documents/manual-draft.pdf)
-- [Another appendix with a thorough explanation of how the PoC is implemented](how-to-implement-a-node.pdf)
+- [Another appendix with a thorough explanation of how the PoC is implemented](documents/how-to-implement-a-node.pdf)
 
 
 ### Proof-of-concept implementation of Web Prolog written for clarity
