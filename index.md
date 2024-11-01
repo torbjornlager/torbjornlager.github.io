@@ -9,7 +9,9 @@ If you want to **play with the language** and perhaps **take the tutorial** (whi
 
 ### Links to written material
 
-- [Web Prolog manual (draft)](documents/manual-draft.pdf)
+- [Parts of two chapters from my draft manuscript](xxx)
+- [An appendix containing a drafts Web Prolog manual](documents/manual-draft.pdf)
+- [Another appendix with a thorough explanation of how the PoC works](xxx)
 
 
 ### Proof-of-concept implementation of Web Prolog written for clarity
@@ -40,7 +42,7 @@ Here's how to install the PoC, run the tests, play with the stateless HTTP API, 
    ```
    ?- test.
    ``` 
-   Tehe tests should all pass.
+   The tests should all pass.
 
 5. To run a node with its stateless HTTP API, you need to do:
 
@@ -151,7 +153,7 @@ Here's how to install the PoC, run the tests, play with the stateless HTTP API, 
    ?- 
    ```
   
-   You'll find a lot more examples in the draft chapters linked above, and most of the examples that work in this implementation is also included in the file `trinity_tests.pl`.
+   You'll find a lot more examples in the draft chapters linked above, and most of the examples that work in the PoC is also included in the file `trinity_tests.pl`.
    
    Examples that do **not** work:
    
