@@ -27,7 +27,7 @@ Note that this is a proof-of-concept demonstration/tutorial only. The system is 
 4. Tests are available in the same directory. Just do
 
    ```
-   ?- [trinity_test]. 
+   ?- [trinity_tests]. 
    ``` 
    and then run:
 
@@ -38,7 +38,7 @@ Note that this is a proof-of-concept demonstration/tutorial only. The system is 
 
 5. To run a node with its stateless HTTP API, you need to do:
 
-   ```
+   ```text
    ?- node(3010).
    % Started server at http://localhost:3010/
    true.
@@ -49,26 +49,21 @@ Note that this is a proof-of-concept demonstration/tutorial only. The system is 
 
    At this point you may want to take the node's stateless HTTP API for a trial run by selecting (or just entering) the following URI in a web browser:
 
-   ```text
-   http://localhost:3010/call?goal=member(X,[a,b])&format=prolog
-   ```
+
+   [http://localhost:3010/call?goal=member(X,[a,b])&format=prolog](http://localhost:3010/call?goal=member(X,[a,b])&format=prolog)
+
    In the browser's window, you should then see the following:
 
    ```
    success([member(a,[a,b]),member(b,[a,b])],false)
    ```
 
-   and with 
+   Then try this:
 
-   ```text
-   http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=0&limit=1&format=prolog
-   ```
 
-   Try this:
+   [http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=0&limit=1&format=prolog](http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=0&limit=1&format=prolog)
 
-   ```text
-   http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=0&limit=1&format=prolog
-   ```
+
 
    and you should see
 
@@ -78,9 +73,9 @@ Note that this is a proof-of-concept demonstration/tutorial only. The system is 
 
    Then this, where offset is set to `1`:
 
-   ```text
-   http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=1&limit=1&format=prolog
-   ```
+
+   [http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=1&limit=1&format=prolog](http://localhost:3010/call?goal=member(X,[a,b])&template=X&offset=1&limit=1&format=prolog)
+
 
     and you should see
 
@@ -117,7 +112,46 @@ Note that this is a proof-of-concept demonstration/tutorial only. The system is 
    ?- 
    ```
 
-   If you wan to test the naive implementation of the HTTP API (the one you may be able to implement i Scryer Prolog at this point in time) you need to replace `compute_answer/5` with two lines (see ≈ line 590). If you do, note that computing the solution `X=bar` will take just as long as computing the solution `X=foo`.
+   If you want to test the naive implementation of the HTTP API (the one you may be able to implement in Scryer Prolog at this point in time) you need to replace `compute_answer/5` with two lines (see ≈ line 590). If you do, note that computing the solution `X=bar` will take just as long as computing the solution `X=foo` since spurious recomputations are no longer eliminated.
+
+6. Your Prolog top-level can be used as a shell. Try this for example:
+
+   ```text
+   ?- toplevel_spawn(Pid, [
+          monitor(true)
+      ]).
+   Pid = '42103437'.
+   
+   ?- toplevel_call($Pid, between(1,5,I), [
+          template(I),
+          limit(2)
+      ]).
+   Pid = '42103437'.
+   
+   ?- flush.
+   Shell got success('42103437',[1,2],true)
+   true.
+   
+   ?- toplevel_next($Pid,[
+          limit(10)
+      ]).
+   Pid = '42103437'.
+   
+   ?- flush.
+   Shell got success('42103437',[3,4,5],false)
+   Shell got down('42103437',true)
+   true.
+   
+   ?- 
+   ```
+  
+   You'll find a lot more examples in the draft chapters linked above, and most of the examples that work in this implementation is also included in the file `trinity_tests.pl`.
+   
+   Examples that do **not** work:
+   
+   1. Examples that use the `node` option,
+   2. examples that use the `load_*` options,
+   3. and probably a few others...
 
 ## Links to written material
 
