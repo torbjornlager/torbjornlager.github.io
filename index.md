@@ -10,7 +10,7 @@ If you want to **play with the language** and perhaps **take the tutorial** (whi
 ### Links to written material
 
 - [Parts of two chapters from my draft manuscript](xxx)
-- [An appendix containing a drafts Web Prolog manual](documents/manual-draft.pdf)
+- [An appendix containing the draft Web Prolog manual](documents/manual-draft.pdf)
 - [Another appendix with a thorough explanation of how the PoC works](xxx)
 
 
