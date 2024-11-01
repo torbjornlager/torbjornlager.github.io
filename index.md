@@ -22,7 +22,7 @@ Here's how to install the PoC, run the tests, play with the stateless HTTP API, 
 2. Code for the PoC is [here](code/trinity-poc.zip), in a zip-file.
 3. Unzip and do
    ```
-   $ cd trinity_poc
+   $ cd trinity-poc
    ```
    and then 
 
@@ -38,9 +38,9 @@ Here's how to install the PoC, run the tests, play with the stateless HTTP API, 
    and then run:
 
    ```
-   ?- tests.
+   ?- test.
    ``` 
-   They should all pass.
+   Tehe tests should all pass.
 
 5. To run a node with its stateless HTTP API, you need to do:
 
@@ -53,7 +53,7 @@ Here's how to install the PoC, run the tests, play with the stateless HTTP API, 
 
    **Warning: Do not expose the node to the whole world at this point, as it is not secure!**
 
-   At this point you may want to take the node's stateless HTTP API for a trial run by selecting (or just entering) the following URI in a web browser:
+   You may want to take the node's stateless HTTP API for a trial run by selecting (or just entering) the following URI in a web browser:
 
 
    [http://localhost:3010/call?goal=member(X,[a,b])&format=prolog](http://localhost:3010/call?goal=member(X,[a,b])&format=prolog)
@@ -162,7 +162,7 @@ Here's how to install the PoC, run the tests, play with the stateless HTTP API, 
 
 
 
-### Links to videos about Erlang, from witch Erlang-style programming in Web Prolog can also be learned:
+### Links to videos about Erlang, from which Erlang-style programming in Web Prolog can also be learned:
 
 - [Panel discussion: Joe Armstrong, Carl Hewitt and Tony Hoare on concurrent and distributed programming](https://www.youtube.com/watch?v=37wFVVVZlVU)
 - [Erlang Master classes](https://www.cs.kent.ac.uk/ErlangMasterClasses). A great way to learn Erlang-style concurrent programming. If you are at all familiar with functional programming, you can probably skip Master class 1.
