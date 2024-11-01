@@ -9,9 +9,9 @@ If you want to **play with the language** and perhaps **take the tutorial** (whi
 
 ### Links to written material
 
-- [Parts of two chapters from my draft manuscript](xxx)
+- [Parts of two chapters from my draft manuscript](parts-of-chapter-2-and-3.pdf)
 - [An appendix containing the draft Web Prolog manual](documents/manual-draft.pdf)
-- [Another appendix with a thorough explanation of how the PoC works](xxx)
+- [Another appendix with a thorough explanation of how the PoC is implemented](how-to-implement-a-node.pdf)
 
 
 ### Proof-of-concept implementation of Web Prolog written for clarity
@@ -104,6 +104,7 @@ Here's how to install the PoC, run the tests, play with the stateless HTTP API, 
    ```text
    ?- rpc('http://localhost:3010', member(X,[a,b]),[limit(1)]).
    X = a ;
+   % New HTTP request from offset 1
    X = b.
    ?-
    ```
