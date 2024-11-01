@@ -154,7 +154,7 @@ Here's how to install the PoC, run the tests, play with the stateless HTTP API, 
    ?- 
    ```
   
-   You'll find a lot more examples in the draft chapters linked above, and most of the examples that work in the PoC is also included in the file `trinity_tests.pl`.
+   You'll find a lot more examples in the draft chapters linked above, and most of the examples that work in the PoC is included in the file `trinity_programs.pl`.
    
    Examples that do **not** work:
    
