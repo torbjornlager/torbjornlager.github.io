@@ -21,7 +21,7 @@ Proof-of-concept implementations of Web Prolog have been written before (and I l
 Here's how to install the PoC, run the tests, play with the stateless HTTP API, and do some Erlang-style programming in Web Prolog:
 
 1. Install the latest [SWI-Prolog](https://www.swi-prolog.org/download/devel) for your platform.
-2. Code for the PoC is [here](code/trinity-poc.zip), in a zip-file.
+2. Source code for the PoC is [here](code/trinity-poc.zip), in a zip-file. 
 3. Unzip and do
    ```
    $ cd trinity-poc
