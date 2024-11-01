@@ -1,4 +1,4 @@
-## TLDR
+## The Prolog Trinity talk
 
 If you want to **read something** in connection with my talk, I would recommend [Intro to Web Prolog for Erlangers](https://gup.ub.gu.se/file/207827) for the second talk, and the [chapter on SCXML and Web Prolog](https://github.com/Web-Prolog/swi-web-prolog/blob/master/book/web-prolog-and-scxml.pdf) for the fourth talk. Also, the draft [Web Prolog manual](documents/manual-draft.pdf) might be handy.
 
