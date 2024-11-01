@@ -1,4 +1,4 @@
-## The Prolog Trinity talk
+### The Prolog Trinity talk
 
 If you want to **read something** in connection with my talk, I would recommend [Intro to Web Prolog for Erlangers](https://gup.ub.gu.se/file/207827) for the second talk, and the [chapter on SCXML and Web Prolog](https://github.com/Web-Prolog/swi-web-prolog/blob/master/book/web-prolog-and-scxml.pdf) for the fourth talk. Also, the draft [Web Prolog manual](documents/manual-draft.pdf) might be handy.
 
@@ -7,10 +7,16 @@ If you want to **delve deeper**, reading my manuscript [Web Prolog and the progr
 If you want to **play with the language** and perhaps **take the tutorial** (which I really recommend) you need to install the proof-of-concept implementation. See below.
 
 
+### Links to written material
 
-## Proof-of-concept implementation of Web Prolog
+- [Web Prolog manual (draft)](documents/manual-draft.pdf)
 
-Note that this is a proof-of-concept demonstration/tutorial only. The system is _not_ yet ready for online deployment. But you can install it locally, work through the tutorial, and play with lots of code examples. Here's how to install it, run the tests, play with the stateless HTTP API, and do some Erlang-style programming in Web Prolog:
+
+### Proof-of-concept implementation of Web Prolog written for clarity
+
+Proof-of-concept implementations of Web Prolog have been written before (and I link to one of them below), but they have been complex in a way that has tended to hide its most essential features. This is the first PoC that has been written for optimal understandability in mind, which should make it easier to implement Web Prolog in Prolog systems other than SWI-Prolog. It does mean, however, that it is also less complete, and does not, for example, implement the `node` option or the `load_*` options.
+
+Here's how to install the PoC, run the tests, play with the stateless HTTP API, and do some Erlang-style programming in Web Prolog:
 
 1. Install the latest [SWI-Prolog](https://www.swi-prolog.org/download/devel) for your platform.
 2. Code for the PoC is [here](code/trinity-poc.zip), in a zip-file.
@@ -153,13 +159,10 @@ Note that this is a proof-of-concept demonstration/tutorial only. The system is 
    2. examples that use the `load_*` options,
    3. and probably a few others...
 
-## Links to written material
-
-- [Web Prolog manual (draft)](documents/manual-draft.pdf)
 
 
 
-## Links to videos about Erlang, from witch Erlang-style programming in Web Prolog can also be learned:
+### Links to videos about Erlang, from witch Erlang-style programming in Web Prolog can also be learned:
 
 - [Panel discussion: Joe Armstrong, Carl Hewitt and Tony Hoare on concurrent and distributed programming](https://www.youtube.com/watch?v=37wFVVVZlVU)
 - [Erlang Master classes](https://www.cs.kent.ac.uk/ErlangMasterClasses). A great way to learn Erlang-style concurrent programming. If you are at all familiar with functional programming, you can probably skip Master class 1.
