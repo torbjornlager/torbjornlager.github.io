@@ -9,7 +9,7 @@
 
 ### Proof-of-concept implementation of Web Prolog written for clarity
 
-Proof-of-concept implementations of Web Prolog have been written before but they have been complex in a way that has tended to hide its most essential features. This is the first PoC that has been written for optimal understandability in mind, which should make it easier to implement Web Prolog in Prolog systems other than SWI-Prolog. It does mean, however, that it is also less complete, and does not, for example, implement the `node` option or the `load_*` options.
+Proof-of-concept implementations of Web Prolog have been written before, but they have been complex in a way that has tended to hide its most essential features. This is the first PoC that has been written for optimal understandability in mind, which should make it easier to implement Web Prolog in Prolog systems other than SWI-Prolog. It does mean, however, that it is also less complete, and does not, for example, implement the `node` option or the `load_*` options.
 
 Here's how to install the PoC, run the tests, play with the stateless HTTP API, and do some Erlang-style programming in Web Prolog:
 
@@ -158,7 +158,8 @@ Here's how to install the PoC, run the tests, play with the stateless HTTP API, 
 
 
 
-### Links to videos about Erlang, from which Erlang-style programming in Web Prolog can also be learned:
+### Links to videos about Erlang and concurrent programming in general
 
+- [Erlang Master classes](https://www.cs.kent.ac.uk/ErlangMasterClasses). A great way to learn Erlang-style concurrent programming in Web Prolog. If you are at all familiar with functional programming, you can probably skip Master class 1.
 - [Panel discussion: Joe Armstrong, Carl Hewitt and Tony Hoare on concurrent and distributed programming](https://www.youtube.com/watch?v=37wFVVVZlVU)
-- [Erlang Master classes](https://www.cs.kent.ac.uk/ErlangMasterClasses). A great way to learn Erlang-style concurrent programming. If you are at all familiar with functional programming, you can probably skip Master class 1.
+  
