@@ -9,7 +9,7 @@
 
 ### Proof-of-concept implementation of Web Prolog written for clarity
 
-Proof-of-concept implementations of Web Prolog have been written before (and I link to one of them below), but they have been complex in a way that has tended to hide its most essential features. This is the first PoC that has been written for optimal understandability in mind, which should make it easier to implement Web Prolog in Prolog systems other than SWI-Prolog. It does mean, however, that it is also less complete, and does not, for example, implement the `node` option or the `load_*` options.
+Proof-of-concept implementations of Web Prolog have been written before but they have been complex in a way that has tended to hide its most essential features. This is the first PoC that has been written for optimal understandability in mind, which should make it easier to implement Web Prolog in Prolog systems other than SWI-Prolog. It does mean, however, that it is also less complete, and does not, for example, implement the `node` option or the `load_*` options.
 
 Here's how to install the PoC, run the tests, play with the stateless HTTP API, and do some Erlang-style programming in Web Prolog:
 
