@@ -1,10 +1,8 @@
 
 
-### Links to written material
+### Written material
 
-- [Parts of two chapters from my draft manuscript](documents/parts-of-chapter-2-and-3.pdf)
-- [An appendix containing the draft Web Prolog manual](documents/manual-draft.pdf)
-- [Another appendix with a thorough explanation of how the PoC is implemented](documents/how-to-implement-a-node.pdf)
+- [Extracts from my draft manuscript](documents/book-extracts.pdf) A lot of Web Prolog coding examples! Also includes an appendix containing the draft Web Prolog manual, and another appendix with a thorough explanation of how the PoC is implemented.
 
 
 ### Proof-of-concept implementation of Web Prolog written for clarity
