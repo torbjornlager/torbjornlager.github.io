@@ -2,7 +2,7 @@
 
 ### Written material
 
-- [Extracts from my draft manuscript](documents/book-extracts.pdf) A lot of Web Prolog coding examples! Also includes an appendix containing the draft Web Prolog manual, and another appendix with a thorough explanation of how the PoC is implemented.
+- [Extracts from my draft manuscript](documents/book-extracts.pdf). A lot of Web Prolog coding examples! Also includes an appendix containing the draft Web Prolog manual, and another appendix with a thorough explanation of how the PoC is implemented.
 
 
 ### Proof-of-concept implementation of Web Prolog written for clarity
