@@ -1,4 +1,4 @@
-## Add-ons
+## Add-on Resources
 
 
 ### The presentation
