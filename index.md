@@ -1,11 +1,11 @@
 
 
-### Written material
+### A book extract
 
 - [Extracts from my draft manuscript](documents/book-extracts.pdf). A lot of Web Prolog coding examples! Also includes an appendix containing the draft Web Prolog manual, and another appendix with a thorough explanation of how the PoC is implemented.
 
 
-### Proof-of-concept implementation of Web Prolog written for clarity
+### A proof-of-concept implementation of Web Prolog written for clarity
 
 Proof-of-concept implementations of Web Prolog have been written before, but they have been complex in a way that has tended to hide its most essential features. This is the first PoC that has been written for optimal understandability in mind, which should make it easier to implement Web Prolog in Prolog systems other than SWI-Prolog. It does mean, however, that it is also less complete, and does not, for example, implement the `node` option or the `load_*` options.
 
