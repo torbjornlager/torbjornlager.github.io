@@ -1,8 +1,11 @@
 ## Add-ons
 
-### A book extract
 
-- [Extracts from my draft manuscript](documents/book-extracts.pdf). Contains lot of Web Prolog coding examples! Also includes an appendix containing the draft Web Prolog manual, and another appendix with a thorough explanation of how the PoC is implemented.
+### The presentation
+
+
+[My presentation](documents/scryer-prolog-meetup-final.zip) in a zip-file. It's made in Keynote for Mac and contains anaimations that are not likely to work elsewhere.
+
 
 
 ### A proof-of-concept implementation of Web Prolog written for clarity
@@ -153,6 +156,10 @@ Here's how to install the PoC, run the tests, play with the stateless HTTP API, 
    2. examples that use the `load_*` options,
    3. and probably a few others...
 
+
+### A book extract
+
+- [Extracts from my draft manuscript](documents/book-extracts.pdf). Contains a lot of Web Prolog coding examples! Also includes an appendix containing the draft Web Prolog manual, and another appendix with a thorough explanation of how the PoC is implemented.
 
 
 
