@@ -4,7 +4,7 @@
 ### The presentation
 
 
-[My presentation](documents/scryer-prolog-meetup-final.zip) in a zip-file. It's made in Keynote for Mac and contains animations that are not likely to work elsewhere.
+[My presentation](documents/scryer-prolog-meetup-final-2.zip) in a zip-file. It's made in Keynote for Mac and contains animations that are not likely to work elsewhere.
 
 
 ### A proof-of-concept implementation of Web Prolog written for clarity
